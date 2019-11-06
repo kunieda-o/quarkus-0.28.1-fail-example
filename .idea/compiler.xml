@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Example-quarkus.gcp.main" target="11" />
+      <module name="Example-quarkus.gcp.native-test" target="11" />
+      <module name="Example-quarkus.gcp.test" target="11" />
+      <module name="LCX-API-Server.alibaba.main" target="11" />
+      <module name="LCX-API-Server.alibaba.native-test" target="11" />
+      <module name="LCX-API-Server.alibaba.test" target="11" />
+      <module name="LCX-API-Server.core.main" target="11" />
+      <module name="LCX-API-Server.core.native-test" target="11" />
+      <module name="LCX-API-Server.core.test" target="11" />
+      <module name="LCX-API-Server.gcp.main" target="11" />
+      <module name="LCX-API-Server.gcp.native-test" target="11" />
+      <module name="LCX-API-Server.gcp.test" target="11" />
+      <module name="LCX-API-Server.main" target="11" />
+      <module name="LCX-API-Server.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

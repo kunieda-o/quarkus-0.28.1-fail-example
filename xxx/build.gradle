@@ -1,0 +1,21 @@
+buildscript {
+
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "io.quarkus:quarkus-gradle-plugin:${quarkusVersion}"
+    }
+}
+
+plugins {
+    id 'java'
+    id 'application'
+}
+
+mainClassName = "processor.GenerateOfyRegistredClass"
+
+project.afterEvaluate {
+    tasks.run.dependsOn classes
+}
+
